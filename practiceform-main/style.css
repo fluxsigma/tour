@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  
+}
+
+body{
+    background-color: rgb(219, 234, 246);
+    min-height: 200vh;
+}
+
+
+
+
+.back{
+    display: flex;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px 100px;
+    z-index: 10;
+    background-color: rgb(62, 62, 62);
+
+}
+.bgm :hover{ background-color: rgb(37, 36, 37);
+     transition: 0.6s;
+
+}
+
+
+
+.sticky {
+    background-color: rgb(0, 0, 0);  
+    transition: 0.8s; 
+    opacity: 0.9;
+}
+
+
+header ul{ position: relative;
+
+display: flex;
+justify-content: 
+
+
+
+
+    
+}
+
+header li{
+    position: relative;
+    list-style: none;
+
+    
+}
+header ul li a{
+   font-size: 25px;
+    text-decoration: none;
+    color: rgb(235, 222, 222);
+
+    
+    
+}
+
+.banner{
+    position: relative;
+    width:100% ;
+    height: 65vh;
+    background: url(hm.jpg);
+    background-size: cover;
+    ;
+
+
+}
+/* .banner2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(moon.jpg);
+    background-size: cover;
+    z-index: -1 ;
+
+} */
+
+
+form{ margin-left: 545px;
+    text-align: center;
+    margin-top: 100px;
+   background-color: rgb(231, 231, 231);
+   width: 300px;
+   padding: 30px  30px 30px 20px;
+   border: 2px solid rgb(83, 83, 83);
+   opacity: 0.5;
+   border-radius: 5px;
+}
+
+input{
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: 2px solid pink;
+    border-radius: 25px;
+    color: palevioletred;
+}
+
+
+a{
+    padding: 25px 25px;
+}
+ li :hover{
+    color: yellow;
+
+ }
+
+input :hover{
+    background-color: black;
+    transition: 0.6s;
+}
+
